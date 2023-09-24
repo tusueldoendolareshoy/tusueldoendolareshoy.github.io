@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tu sueldo en dolares HOY</title>
+    <link rel="stylesheet" type="text/css" href="/style/style.css">
+    <script async src="/script/script.js"></script>
+</head>
+
+<body>
+    <header>
+        <h1 id="titulo">TU SUELDO EN DÓLARES HOY</h1>
+        <nav>
+            <ul>
+                <li><a href="/index.html">Inicio</a></li>
+                <li><a href="https://www.linkedin.com/in/saulociddev/">Mi Linkedin</a></li>
+                <li><a href="https://wa.me/5492604688604">Whatsapp</a></li>
+                <li><a href="https://github.com/saulocid">Github</a></li>
+                <li><a href="#donar">DONAR</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <div class="disclaimer">
+            <h1>Descargo de Responsabilidad</h1>
+            <p>El contenido de este sitio web es puramente informativo y se proporciona tal como está. El uso de la
+                información y los recursos disponibles en este sitio web queda bajo la responsabilidad exclusiva del
+                usuario. El creador de este sitio web no asume ninguna responsabilidad por la exactitud, integridad o
+                idoneidad de la información proporcionada.</p>
+            <p>El contenido de este sitio web no debe considerarse como asesoramiento profesional o legal. Siempre se
+                recomienda consultar con profesionales calificados antes de tomar decisiones basadas en la información
+                encontrada en este sitio.</p>
+            <p>El creador de este sitio web no se hace responsable de ningún daño, pérdida o consecuencia que pueda
+                surgir directa o indirectamente del uso de este sitio web o de la información aquí proporcionada.</p>
+            <p>El usuario asume la responsabilidad total de su uso del contenido y los recursos de este sitio web. Al
+                utilizar este sitio, usted acepta estos términos y condiciones.</p>
+        </div>
+        <div><iframe class="dolarhoy" src="https://dolarhoy.com/i/cotizaciones/dolar-blue" frameborder="0"></iframe>
+        </div>
+        <h2>Procedimiento</h2>
+        <p>Coloca en la primer casilla tu monto a transformar, luego el precio para la venta en la segunda y apreta
+            el boton <strong>CONVERTIR</strong>.</p>
+        <div id="convertir">
+            <form id="formulario">
+                <label for="numero1">Cantidad a convertir $</label>
+                <input type="number" id="numero1" placeholder="Ingrese el primer número" required>
+                <br>
+                <label for="numero2">Precio de <strong>VENTA U$S</strong></label>
+                <input type="number" id="numero2" placeholder="Ingrese el segundo número" required>
+                <br>
+                <button type="button" id="calcular">CONVERTIR</button>
+            </form>
+            <div id="resultado">
+                <label><strong>TOTAL U$S</strong></label>
+                <input type="text" id="producto" readonly>
+            </div>
+        </div>
+        <p>Cabe destacar que, para ser transparente y sincerarte con el precio que el mercado propone debes tomar el
+            valor de venta de las financieras y al precio que hoy es accesible poder comprar.</p>
+        <p>Ya sabemos que el precio OFICIAL, el cual el gobierno publica ES SIN IMPUESTOS (o sea, una mentira) el cual
+            terminas pagando casi, casi el mismo precio que el DOLAR BLUE al momento de realizar dicha compra en los
+            bancos pertinentes, y además, dependiendo te tus ingresos mensuales blaqueados, tienes un límite al mes para
+            poder comprar (ejemplo 100 dólares al mes)</p>
+        <p>NO TE DEJES ESTAFAR y tampoco seas ignorante sobre el tema, hay muchos tipos de cambio y son muy pocos de
+            ellos con los que puedes transaccionar. En este caso te dejamos el más popular (aunque el más honeroso) tipo
+            de cambio para que transformes no solo tu sueldo sino también cualquier tipo de bien o servicio que desees
+            consultar</p>
+    </main>
+
+    <footer>
+        <p id="donar">Ésta es una aplicación web gratuita, si deseas apoyar el contenido dona en los siguientes alias:</p>
+        <p>En Argentina por Mercado Pago a saulo.cid.mp</p>
+        <p>Para el exterior por Paypal a paypal.me/saulocid</p>
+        <p>Información de precio de divisa en <a target="_blank" href="https://dolarhoy.com">dolarhoy.com</a> </p>
+        <p>2023 Saulo Cid &copy; Developer</p>
+    </footer>
+</body>
+
+</html>

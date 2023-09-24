@@ -1,0 +1,102 @@
+body {
+    background-image: url("/src/dolar02.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+    text-align: center;
+    align-items: center;
+    margin: 30px;
+    padding: 0;
+}
+
+#titulo {
+    font-size: 40px;
+    background-color: #007BFF;
+    color: white;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 2px 4px 4px rgb(0 0 0 / 25%);
+}
+
+nav ul {
+    background-color: rgba(95, 158, 160, 0.5);
+    list-style: none;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-radius: 10px;
+    box-shadow: 2px 4px 4px rgb(0 0 0 / 25%);
+}
+
+nav li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+nav a {
+    font-size: 20px;
+    text-decoration: none;
+    color: #000000;
+    background-color: rgba(255, 255, 255, 0.5);
+    padding: 5px;
+    border-radius: 10px;
+}
+
+.dolarhoy {
+    width: 80%;
+    max-width: 320px;
+    height: 260px;
+    border-radius: 10px;
+    box-shadow: 2px 4px 4px rgb(0 0 0 / 25%);
+    justify-content: center;
+    border: 1px solid #bcbcbc;
+}
+
+footer {
+    background-color: rgba(112, 156, 67, 0.8);
+    font-size: 20px;
+    align-items: center;
+    justify-items: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 2px 4px 4px rgb(0 0 0 / 25%);
+}
+
+footer a {
+    text-decoration: none;
+}
+
+footer  p{
+    margin: 20px
+}
+
+#convertir {
+    background-color: white;
+    border: 1px solid #7a7a7a;
+    border-radius: 5px;
+    padding: 10px;
+    margin: o;
+    text-align: center;
+    box-shadow: 2px 4px 4px rgb(0 0 0 / 25%);
+}
+
+#formulario label,
+#formulario input,
+#formulario button,
+#resultado label,
+#producto {
+    display: inline-block;
+    border-radius: 5px;
+    margin: 5px;
+    padding: 5px;
+}
+
+main p {
+    text-align: justify;
+}
