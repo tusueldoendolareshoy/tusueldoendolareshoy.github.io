@@ -3,5 +3,5 @@
 Convertir pesos argentinos a dólares estados unidenses.
 .
 .
-![Fondo](https://raw.githubusercontent.com/tusueldoendolareshoy/tusueldoendolareshoy.github.io/main/src/Fondo.jpg)
+![Fondo](https://github.com/tusueldoendolareshoy/tusueldoendolareshoy.github.io/blob/main/src/Fondo2.jpg)
 .
