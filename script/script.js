@@ -21,6 +21,6 @@ document.getElementById("calcular").addEventListener("click", function () {
         var producto = (numero1 / numero2).toFixed(2);
         document.getElementById("producto").value = producto;
     } else {
-        alert("Por favor, ingrese valores válidos en ambos campos.");
+        alert("Por favor, ingrese un monto válido en el campo");
     }
 });
