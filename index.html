@@ -15,7 +15,7 @@
         <h1 id="titulo" class="titulo">TU SUELDO EN DÓLARES HOY</h1>
         <nav>
             <ul class="container-fluid">
-                <li class="col col-5 col-md-2"><a href="https://www.linkedin.com/in/saulociddev/" target="_blank">Mi Linkedin</a></li>
+                <li class="col col-5 col-md-2"><a href="https://www.linkedin.com/in/saulociddev/" target="_blank">Linkedin</a></li>
                 <li class="col col-5 col-md-2"><a href="https://wa.me/5492604302926" target="_blank">Whatsapp</a></li>
                 <li class="col col-5 col-md-2"><a href="https://github.com/saulocid" target="_blank">Github</a></li>
                 <li class="col col-5 col-md-2"><a href="#donar">DONAR</a></li>
@@ -38,8 +38,29 @@
             <p>El usuario asume la responsabilidad total de su uso del contenido y los recursos de este sitio web. Al
                 utilizar este sitio, usted acepta estos términos y condiciones.</p>
         </div>
-        <div><iframe class="dolarhoy" src="https://dolarhoy.com/i/cotizaciones/dolar-blue" frameborder="0"></iframe>
-        </div>
+
+        <section class="dolarblue">
+            <h2>DOLAR BLUE</h2>
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col col-6 col-6-md">
+                        <p>COMPRA</p>
+                    </div>
+                    <div class="col col-6 col-6-md">
+                        <p>VENTA</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col col-6 col-6-md">
+                        <span id="dolarCompra"></span>
+                    </div>
+                    <div class="col col-6 col-6-md">
+                        <span id="dolarVenta"></span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
         <h2>Procedimiento</h2>
         <p>Coloca en la primer casilla tu monto a transformar, luego apreta
             el boton <strong>CONVERTIR</strong>.</p>
@@ -69,18 +90,20 @@
         </p>
         <p>En Argentina por Mercado Pago a saulo.cid.mp (pesos argentinos)</p>
         <p>Para el exterior por Paypal a paypal.me/saulocid (dólares estadounidenses)</p>
-        <p>Información de precio de divisa en <a target="_blank" href="https://dolarhoy.com">dolarhoy.com</a> </p>
+        <p>Información de precio de divisa en <a target="_blank"
+                href="https://bluelytics.com.ar/#!/">bluelytics.com.ar</a> </p>
+        <p> <a target="_blank" href="https://api.bluelytics.com.ar/v2/latest">API</a> de <strong>bluelytics</strong></p>
         <p>2023 Saulo Cid &copy; Developer</p>
         <ul>
             <li id="arriba"><a href="#titulo">ARRIBA</a></li>
         </ul>
     </footer>
 
-    <script async src="/script/script.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
         crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script async src="/script/script.js"></script>
 </body>
 
 </html>

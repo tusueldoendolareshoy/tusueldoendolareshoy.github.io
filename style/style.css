@@ -55,16 +55,6 @@ nav a:not(:hover) {
     transition: 300ms;
 }
 
-.dolarhoy {
-    width: 80%;
-    max-width: 320px;
-    height: 260px;
-    border-radius: 10px;
-    box-shadow: 2px 4px 4px rgb(0 0 0 / 25%);
-    justify-content: center;
-    border: 1px solid #bcbcbc;
-}
-
 footer {
     background-color: rgba(112, 156, 67, 0.8);
     font-size: 20px;
@@ -157,4 +147,34 @@ main p {
 
 #calcular:not(:hover) {
     transition: 300ms;
+}
+
+.dolarblue {
+    padding: 10px 50px;
+    background-color: white;
+    width: 80%;
+    margin: 0 auto;
+    border-radius: 5px;
+    border: grey 1px solid;
+    filter: drop-shadow(0 0 2px grey);
+}
+
+.dolarblue h2 {
+    color: white;
+    background-color: #007BFF;
+    border-radius: 5px;
+    padding: 20px 0;
+    margin: 10px 0;
+}
+
+.dolarblue div div div p {
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+#dolarCompra,
+#dolarVenta {
+    color: #007BFF;
+    filter: drop-shadow(0 0 2px rgba(82, 136, 27, 0.8));
+    font-size: 2rem;
 }
