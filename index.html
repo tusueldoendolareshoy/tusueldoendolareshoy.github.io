@@ -25,6 +25,47 @@
 
     <main class="container-fluid col-12 col-md-8">
         <div class="disclaimer">
+            <section class="dolarblue">
+                <h2>DOLAR BLUE</h2>
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-12 col-6-md">
+                            <p>COMPRA</p>
+                        </div>
+                        <div class="col-12 col-6-md">
+                            <span id="dolarCompra"></span>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-12 col-6-md">
+                            <p>VENTA</p>
+                        </div>
+                        <div class="col-12 col-6-md">
+                            <span id="dolarVenta"></span>
+                        </div>
+                    </div>
+                </div>
+            </section>
+    
+            <h2>Procedimiento</h2>
+            <p>Coloca en la primer casilla tu monto a transformar, luego apreta
+                el boton <strong>CONVERTIR</strong>.</p>
+            <div id="convertir">
+                <form id="formulario">
+                    <label for="numero1">Cantidad a convertir $</label>
+                    <input type="number" id="numero1" placeholder="Ingrese el monto" required>
+                    <br>
+                    <div id="tasaDolar">
+                        <label for="numero2">Precio de <strong>VENTA U$S</strong></label>
+                        <input type="number" id="numero2" readonly><br>
+                    </div>
+                    <button type="button" id="calcular">CONVERTIR</button>
+                </form>
+                <div id="resultado">
+                    <label><strong>TOTAL U$S</strong></label>
+                    <input type="text" id="producto" readonly>
+                </div>
+            </div>
             <h1>Descargo de Responsabilidad</h1>
             <p>El contenido de este sitio web es puramente informativo y se proporciona tal como está. El uso de la
                 información y los recursos disponibles en este sitio web queda bajo la responsabilidad exclusiva del
@@ -39,47 +80,6 @@
                 utilizar este sitio, usted acepta estos términos y condiciones.</p>
         </div>
 
-        <section class="dolarblue">
-            <h2>DOLAR BLUE</h2>
-            <div class="container-fluid">
-                <div class="row">
-                    <div class="col col-6 col-6-md">
-                        <p>COMPRA</p>
-                    </div>
-                    <div class="col col-6 col-6-md">
-                        <p>VENTA</p>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col col-6 col-6-md">
-                        <span id="dolarCompra"></span>
-                    </div>
-                    <div class="col col-6 col-6-md">
-                        <span id="dolarVenta"></span>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <h2>Procedimiento</h2>
-        <p>Coloca en la primer casilla tu monto a transformar, luego apreta
-            el boton <strong>CONVERTIR</strong>.</p>
-        <div id="convertir">
-            <form id="formulario">
-                <label for="numero1">Cantidad a convertir $</label>
-                <input type="number" id="numero1" placeholder="Ingrese el monto" required>
-                <br>
-                <div id="tasaDolar">
-                    <label for="numero2">Precio de <strong>VENTA U$S</strong></label>
-                    <input type="number" id="numero2" readonly><br>
-                </div>
-                <button type="button" id="calcular">CONVERTIR</button>
-            </form>
-            <div id="resultado">
-                <label><strong>TOTAL U$S</strong></label>
-                <input type="text" id="producto" readonly>
-            </div>
-        </div>
         <p>Cabe destacar que, para ser transparente y sincerarte con el precio que el mercado propone debes tomar el
             valor de venta de las financieras y al precio que hoy es accesible poder comprar, más allá de la cantidad de
             tipos de cambio que existan el Dolar Blue es el más accesible del mercado.</p>
