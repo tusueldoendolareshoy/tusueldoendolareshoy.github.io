@@ -1,39 +1,26 @@
-<!--
 <!DOCTYPE html>
 <html lang="es">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Contacto</title>
-    <link rel="stylesheet" type="text/css" href="/style/style.css" />
+    <link rel="stylesheet" type="text/css" href="../style/contacto.css" />
   </head>
   <body>
-    <h1>CONTACTO</h1>
-
-    <form method="POST" action="/script/enviar.php">
-      <input
-        type="text"
-        name="nombre"
-        id="nombre"
-        placeholder="Nombre completo"
-        required
-      /><br />
-      <input
-        type="email"
-        name="correo"
-        id="coreeo"
-        placeholder="Correo electrónico"
-        required
-      /><br />
-      <textarea
-        name="mensaje"
-        id="mensaje"
-        placeholder="Escriba su mensaje aquí"
-        required
-      ></textarea
-      ><br />
-      <button id="enviar" type="submit">ENVIAR</button>
-    </form>
+    <div class="container">
+      <h1>CONTACTO</h1>
+      <p>Deja tu mensaje y te responderemos a la brevedad</p>
+      <form action="https://formspree.io/f/mbjnykbo" method="POST">
+        <input type="text" name="nombre" placeholder="Nombre completo" required/><br />
+        <input type="email" name="email" placeholder="e-mail" required/><br />
+        <textarea name="mensaje" placeholder="Mensaje" required></textarea ><br />
+        <button type="submit">Enviar</button>
+      </form>
+    </div>
+    <script async src="../script/email.js"></script>
+    <footer>
+      <p>Aplicación de email   <a target="_blank" href="https://formspree.io/"><img src="../src/formspree-logo.svg" alt="FormsPree logo"></a></p>
+      <p>Saulo Cid Dev &copy; 2023 - Todos los derechos reservados</p>
+    </footer>
   </body>
 </html>
--->
